@@ -1,5 +1,4 @@
+# Add Hack2.0 in description
 
-#Add Hack2.0 in description
-
-##Made by team DeltaForce
-###in team Ashutosh,kartik, vanshika
+## Made by team DeltaForce
+### in team Ashutosh,kartik, vanshika
