@@ -1,12 +1,5 @@
-# Add your project to this repo
 
-## update readme accordingly
+#Add Hack2.0 in description
 
-### It should have
-#### How to run?
-#### What to install and how?
-
-
-
-
-#### Add Hack2.0 in description
+##Made by team DeltaForce
+###in team Ashutosh,kartik, vanshika
