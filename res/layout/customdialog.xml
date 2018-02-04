@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="272dp"
+        android:layout_height="328dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="88dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select status"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRESENT" />
+
+        <Button
+            android:id="@+id/absent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABSENT" />
+
+        <Button
+            android:id="@+id/proxy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROXY" />
+
+        <Button
+            android:id="@+id/massbunk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MASS BUNK" />
+
+        <Button
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OTHER" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
