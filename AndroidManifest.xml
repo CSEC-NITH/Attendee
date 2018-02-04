@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.attendee">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddNew"
+            android:label="attendee">
+
+        </activity>
+    <activity android:name=".gps"
+        android:label="attendee">
+
+    </activity>
+
+        <activity android:name=".manual"
+            android:label="attendee">
+
+        </activity>
+
+    <activity android:name=".accuracy"
+        android:label="attendee">
+
+    </activity>
+    <activity android:name=".attendancerecord"
+            android:label="attendee">
+
+        </activity>
+    <activity android:name=".bargraph"
+            android:label="attendee">
+
+        </activity>
+    <activity android:name=".editablerecord"
+            android:label="attendee">
+
+        </activity>
+    <activity android:name=".editableschedule"
+            android:label="attendee">
+
+        </activity>
+
+    <activity android:name=".editlecture"
+            android:label="attendee">
+
+        </activity>
+    <activity android:name=".logintochange"
+            android:label="attendee">
+
+        </activity>
+    <activity android:name=".logintochangesch"
+            android:label="attendee">
+
+        </activity>
+    <activity android:name=".manual"
+            android:label="attendee">
+
+        </activity>
+    <activity android:name=".schedule"
+            android:label="attendee">
+
+        </activity>
+    <service android:name=".MYGPS"
+    		 android:LAUNCHER="@dimin/as"
+    		</service>
+    </application>
+
+
+</manifest>
