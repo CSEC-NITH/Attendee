@@ -9,3 +9,5 @@ that are produced by android-studio.
 
 the above two mention folder contains all the nessacary java files and xml files
 along with drawables.
+
+snaps folder contains snapshots of the app.
